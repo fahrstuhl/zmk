@@ -1,0 +1,5 @@
+# Copyright (c) 2019 Linaro Limited
+# SPDX-License-Identifier: MIT
+
+config SHIELD_FAHRSTUHL_FEATHER_M0_HANDWIRE
+	def_bool $(shields_list_contains,fahrstuhl_feather_m0_handwire)

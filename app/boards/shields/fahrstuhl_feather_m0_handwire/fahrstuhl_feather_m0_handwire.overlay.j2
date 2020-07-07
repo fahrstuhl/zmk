@@ -1,0 +1,26 @@
+#include <dt-bindings/zmk/matrix-transform.h>
+/ {
+	chosen {
+		zmk,kscan = &kscan0;
+        /* zmk,matrix_transform = &default_transform; */
+	};
+
+	kscan0: kscan_0 {
+		compatible = "zmk,kscan-gpio-matrix";
+		label = "KSCAN";
+		diode-direction = "row2col";
+
+        row-gpios = {% for item in rows %}<&{{ item.port }} {{ item.pin }} {{ item.flags }}>{% if loop.last %};{% else %},
+                    {% endif %}{% endfor %}
+        col-gpios = {% for item in cols %}<&{{ item.port }} {{ item.pin }} {{ item.flags }}>{% if loop.last %};{% else %},
+                    {% endif %}{% endfor %}
+	};
+
+    /*
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <{{ cols|length }}>;
+        rows = <{{ rows|length }}>;
+        map = <{{ matrix_transform }}>;
+        */
+};
