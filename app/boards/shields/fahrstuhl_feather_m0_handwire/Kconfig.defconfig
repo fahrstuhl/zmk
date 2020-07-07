@@ -1,0 +1,13 @@
+if SHIELD_FAHRSTUHL_FEATHER_M0_HANDWIRE
+
+config ZMK_KEYBOARD_NAME
+	default "Fahrstuhl's Handwire"
+
+config ZMK_USB
+	default y
+
+config ZMK_KSCAN_GPIO_POLLING
+	default y
+
+endif
+
