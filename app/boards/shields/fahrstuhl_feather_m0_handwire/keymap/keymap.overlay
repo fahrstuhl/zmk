@@ -26,8 +26,8 @@
                                                                 &kp H &kp J &kp K &kp L &kp SCLN &kp QUOT
 	&kp LCTL  &kp Z &kp X &kp C &kp V &kp B 
                                                                 &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp 0x32
-	&trans &kp LGUI &kp RET &kp 0x64 &kp LSFT &kp LALT 
-                                                                &kp RCTL &kp RSFT &kp SPC &kp RALT &kp RGUI &trans
+	&trans &kp LGUI &kp RET &kp LSFT &kp 0x64 &kp LALT 
+                                                                &kp RCTL &kp SPC &kp RSFT &kp RALT &kp RGUI &trans
 			>;
 		};
 	};
