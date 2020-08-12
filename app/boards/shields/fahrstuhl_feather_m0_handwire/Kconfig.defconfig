@@ -6,8 +6,5 @@ config ZMK_KEYBOARD_NAME
 config ZMK_USB
 	default y
 
-config ZMK_KSCAN_GPIO_POLLING
-	default y
-
 endif
 
