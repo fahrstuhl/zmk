@@ -26,10 +26,10 @@
                                                                 &kp H &kp J &kp K &kp L &kp SCLN &kp QUOT
 	&kp LCTL  &kp Z &kp X &kp C &kp V &kp B 
                                                                 &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp 0x32
-/*	&trans &kp LGUI &kp RET &kp LSFT &mo 1 &kp LALT 
-                                                                &kp RCTL &kp SPC &kp RSFT &mo 1 &kp RGUI &trans */
-	&trans &kp RET &kp LGUI &kp LSFT &kp 0x64 &kp LALT 
-                                                                &kp RCTL &kp SPC &kp RSFT &kp RGUI &kp RALT &trans
+	&trans &kp LGUI &kp RET &kp LSFT &mo 1 &kp LALT 
+                                                                &kp RCTL &kp SPC &kp RSFT &mo 1 &kp RGUI &trans
+/*	&trans &kp RET &kp LGUI &kp LSFT &kp 0x64 &kp LALT 
+                                                                &kp RCTL &kp SPC &kp RSFT &kp RGUI &kp RALT &trans */
 			>;
 		};
 		m_four: layer_1 {
