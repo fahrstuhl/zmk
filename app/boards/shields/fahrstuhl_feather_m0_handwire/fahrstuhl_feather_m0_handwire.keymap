@@ -15,10 +15,10 @@
                                                                 &kp H &kp J &kp K &kp L &kp SCLN &kp QUOT
 	&kp LCTL  &kp Z &kp X &kp C &kp V &kp B 
                                                                 &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp 0x32
-	&trans &kp RET &kp LGUI &kp LSFT &mo 1 &kp LALT 
-                                                                &kp RCTL &kp SPC &kp RSFT &kp RGUI &mo 1 &trans
-/*	&trans &kp RET &kp LGUI &kp LSFT &kp 0x64 &kp LALT 
-                                                                &kp RCTL &kp SPC &kp RSFT &kp RGUI &kp RALT &trans */
+/*	&trans &kp RET &kp LGUI &kp LSFT &mo 1 &kp LALT 
+                                                                &kp RCTL &kp SPC &kp RSFT &kp RGUI &mo 1 &trans */
+	&trans &kp RET &kp LGUI &kp LSFT &kp 0x64 &kp LALT 
+                                                                &kp RCTL &kp SPC &kp RSFT &kp RGUI &kp RALT &trans 
 			>;
 		};
 		m_four_layer {
@@ -32,7 +32,7 @@
 	&trans  &kp ESC &kp TAB &kp INS &kp RET &trans 
                                                                 &trans &kp NUM_1 &kp NUM_2 &kp NUM_3 &trans &trans
 	&trans &trans &trans &trans &trans &trans 
-                                                                &trans &trans &trans &trans &trans &trans
+                                                                &trans &kp NUM_0 &trans &trans &trans &trans
 			>;
 		};
 	};
