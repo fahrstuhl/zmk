@@ -44,7 +44,7 @@
 	&trans  &kp ESC &kp TAB &kp INS &kp RET &trans 
                                                                 &trans &kp NUM_1 &kp NUM_2 &kp NUM_3 &trans &trans
 	&trans &trans &trans &trans &trans &trans 
-                                                                &trans &trans &trans &trans &trans &trans
+                                                                &trans &kp NUM_0 &trans &trans &trans &trans
 			>;
 		};
 	};
