@@ -1,0 +1,12 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+/ {
+    #include "fahrstuhl_nice_nano_split_handwire.overlay"
+
+	&kscan_0 {
+        col-gpios = <&gpio0 24 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 0 (GPIO_ACTIVE_LOW)>,
+                    <&gpio0 11 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 4 (GPIO_ACTIVE_LOW)>,
+                    <&gpio1 6 (GPIO_ACTIVE_LOW)>;
+	};
+};

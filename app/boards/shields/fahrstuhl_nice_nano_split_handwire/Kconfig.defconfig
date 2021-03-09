@@ -1,0 +1,31 @@
+if SHIELD_FAHRSTUHL_NICE_NANO_SPLIT_HANDWIRE_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Fahrstuhl's KB Left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_USB
+	default y
+
+endif
+
+if SHIELD_FAHRSTUHL_NICE_NANO_SPLIT_HANDWIRE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Fahrstuhl's KB Right"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default n
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_USB
+	default y
+
+endif
