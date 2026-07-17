@@ -1,0 +1,8 @@
+# Copyright (c) 2019 Linaro Limited
+# SPDX-License-Identifier: MIT
+
+config SHIELD_FAHRSTUHL_NICE_NANO_SPLIT_HANDWIRE_LEFT
+	def_bool $(shields_list_contains,fahrstuhl_nice_nano_split_handwire_left)
+
+config SHIELD_FAHRSTUHL_NICE_NANO_SPLIT_HANDWIRE_RIGHT
+	def_bool $(shields_list_contains,fahrstuhl_nice_nano_split_handwire_right)
